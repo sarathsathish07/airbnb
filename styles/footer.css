@@ -1,0 +1,87 @@
+.footer1 {
+  height: 112px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(247, 247, 247);
+}
+.footer1 h3 {
+  display: flex;
+  margin-bottom: 25px;
+  font-size: 25px;
+  padding-left: 80px;
+}
+.footer1-links {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  padding-left: 80px;
+}
+.footer1-links p {
+  color: gray;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-family: roboto, arial;
+
+}
+.footer1-links p:active {
+  text-decoration: underline;
+  text-underline-offset: 18px;
+  color: black;
+}
+.footer1-links p:hover {
+  cursor: pointer;
+}
+.footer2 {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 12px;
+  height: 200px;
+  padding-bottom: 20px;
+  border-top: 1px solid rgb(212, 203, 203);
+  background-color: rgb(247, 247, 247);
+}
+
+.footer2-links {
+  display: grid;
+  padding-left: 80px;
+}
+.footer2-links p {
+  margin-top: 0;
+  color: rgb(113, 113, 113);
+  cursor: pointer;
+  font-family: roboto,arial;
+  font-size: 14px;
+}
+.footer2-links .title {
+  margin-bottom: 2px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-style: roboto, arial;
+  cursor: pointer;
+  
+}
+.footer3 {
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 1px solid rgb(212, 203, 203);
+  border-bottom: 1px solid rgb(212, 203, 203);
+  padding-top: 40px;
+  padding-bottom: 50px;
+  background-color: rgb(247, 247, 247);
+}
+
+.footer3 p {
+  text-decoration: none;
+  color: gray;
+  padding-left: 80px;
+  line-height: 1px;
+  font-family: roboto,arial;
+  font-size: 14px;
+}
+.footer3 p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
